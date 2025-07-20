@@ -18,8 +18,8 @@ import {
     ActionSendMsg, ActionSetSignatureAuthAllowed,
     packActionsList
 } from './actions';
-import { TransactionDescriptionGeneric } from 'ton-core/src/types/TransactionDescription';
-import { TransactionComputeVm } from 'ton-core/src/types/TransactionComputePhase';
+import { TransactionDescriptionGeneric } from '@ton/core/src/types/TransactionDescription';
+import { TransactionComputeVm } from '@ton/core/src/types/TransactionComputePhase';
 import { buildBlockchainLibraries, LibraryDeployer } from '../wrappers/library-deployer';
 import { default as config } from './config';
 import { ActionSetCode, ActionSetData } from './test-only-actions';

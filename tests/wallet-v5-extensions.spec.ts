@@ -3,7 +3,7 @@ import { Address, beginCell, Cell, Dictionary, Sender, SendMode, toNano } from '
 import { Opcodes, WalletId, WalletV5 } from '../wrappers/wallet-v5';
 import '@ton/test-utils';
 import { compile } from '@ton/blueprint';
-import { getSecureRandomBytes, KeyPair, keyPairFromSeed, sign } from 'ton-crypto';
+import { getSecureRandomBytes, KeyPair, keyPairFromSeed, sign } from '@ton/crypto';
 import { bufferToBigInt, createMsgInternal, packAddress, validUntil } from './utils';
 import {
     ActionAddExtension,
