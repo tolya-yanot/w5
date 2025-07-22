@@ -8,7 +8,7 @@
         "deploy-library": "npx blueprint run deployLibrary",
         "deploy-wallet": "blueprint run deployWalletV5",
         "print-wallet-code": "ts-node ./scripts/printWalletCode.ts",
-        "test": "jest",
+        "test": "jest --verbose",
         "scalpel": "bash ./scripts/scalpel.sh"
     },
     "devDependencies": {
